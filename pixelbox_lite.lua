@@ -161,7 +161,7 @@ end
 
 function OBJECT:clear(color)
     PIXELBOX.RESTORE(self,color)
-end 
+end
 
 function OBJECT:set_pixel(x,y,color)
     self.CANVAS[y][x] = color

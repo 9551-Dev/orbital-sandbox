@@ -13,7 +13,7 @@ local planet        = require("planet")(6.6743)
 local system = {
     bodies = {
         planet.new("yourmother", 0, 0, vector.new(0, 0, 0),  100, colors.yellow),
-        planet.new("red-bitch" ,-372,0,vector.new(0,267,0),  30,  colors.red),
+        planet.new("red-stone " ,-372,0,vector.new(0,267,0),  30,  colors.red),
         planet.new("therock"   ,-401,0,vector.new(0,190,0),  5,   colors.gray),
         planet.new("shreklor"  ,-181,0,vector.new(0,260,0),  10,  colors.lime),
     },
